@@ -4,13 +4,14 @@ body {
 
 ol {
   margin-right: 50px;
+  background-color: green;
+  color: white;
+  margin: 2px 2px 2px 2px;
+  padding: 4px;
 }
 
 li {
   margin-left: 50px;
   display: inline;
-}
-
-div.container {
-  background-color: red;
+  background-color: orange;
 }

@@ -1,14 +1,6 @@
 //consoleShoppingList
-// var container = document.createElement('div');
-// var container = document.createElement('div 2');
-// document.body.appendChild(container);
-
-// var header = document.createElement('h1');
-// document.appendChild()
-
-// name.className = "div1";
-// price.className = "div2");
-
+var container = document.createElement('div');
+document.body.appendChild(container);
 
 var groceryItems = [
   {
@@ -40,14 +32,14 @@ var groceryItems = [
 var total = 0;
 
 groceryItems.forEach(function(item) {
-var name = document.createElement('ol');
-name.innerText = item.name;
-var price = document.createElement('li');
-price.innerText = item.price;
-document.body.appendChild(name);
-document.body.appendChild(price);
-total += item.price;
-console.log(total);
+  var name = document.createElement('ol');
+  name.innerText = item.name;
+  var price = document.createElement('li');
+  price.innerText = item.price;
+  document.body.appendChild(name);
+  document.body.appendChild(price);
+  total += item.price;
+  console.log(total);
 });
 
 var totalEle = document.createElement('p');
